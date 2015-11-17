@@ -3,15 +3,15 @@ namespace Cms;
 
 class Role
 {
-    protected $name;
+    protected $name1;
     
     public function getName()
     {
-        return $this->name;
+        return $this->name1;
     }
     
     public function setName($name)
     {
-        $this->name = $name;
+        $this->name1 = $name;
     }
 }
