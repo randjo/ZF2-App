@@ -31,7 +31,11 @@ body {
 }
 
 div.container a.brand {
-    background: url("../img/zf2-logo.png") no-repeat scroll 0 10px transparent;
+    background: red no-repeat scroll 0 10px transparent;
     margin-left: 0;
     padding: 8px 20px 12px 40px;
+}
+
+label, input[type="text"], input[type="password"], input[type="email"], textarea, select {
+    display: table;
 }

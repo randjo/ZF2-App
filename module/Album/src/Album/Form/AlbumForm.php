@@ -9,6 +9,7 @@ namespace Album\Form;
      {
          // we want to ignore the name passed
          parent::__construct('album');
+         $this->setAttribute('method', 'get');
 
          $this->add(array(
              'name' => 'id',
